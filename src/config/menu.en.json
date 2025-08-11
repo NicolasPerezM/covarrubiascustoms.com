@@ -1,0 +1,123 @@
+{
+  "headerPrimary": [
+    {
+      "enable": true,
+      "name": "Home",
+      "url": "/home/"
+    },
+
+    {
+      "name": "Our Services",
+      "enable": true,
+      "hasChildren": true,
+      "children": [
+        {
+          "enable": true,
+          "name": "Event Organization",
+          "url": "/about/"
+        },
+        {
+          "enable": true,
+          "name": "Stage Equipment Rentals",
+          "hasChildren": false,
+          "children": [
+            {
+              "enable": true,
+              "name": "Grid",
+              "url": "/services/"
+            },
+            {
+              "enable": true,
+              "name": "Two Column",
+              "url": "/services/two-column/"
+            },
+            {
+              "enable": true,
+              "name": "Accordion",
+              "url": "/services/accordion/"
+            },
+            {
+              "enable": true,
+              "name": "Single",
+              "url": "/services/branding-design/"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "enable": true,
+      "name": "About Us",
+      "url": "/elements/"
+    },
+    {
+      "enable": true,
+      "name": "Events",
+      "url": "/elements/",
+      "badge": {
+        "enable": true,
+        "label": "UPCOMING",
+        "color": "accent",
+        "colorComment": "color expected value - primary, accent, info, success, danger",
+        "type": "text"
+      }
+    }
+  ],
+  "footerPrimary": [
+    {
+      "enable": true,
+      "name": "Our Services",
+      "url": "/about/"
+    },
+    {
+      "enable": true,
+      "name": "About Us",
+      "url": "/"
+    },
+    {
+      "enable": true,
+      "name": "Events",
+      "url": "/services/"
+    },
+    {
+      "enable": true,
+      "name": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "footerSecondary": [
+    {
+      "enable": true,
+      "name": "Privacy policy",
+      "url": "/privacy-policy/"
+    },
+    {
+      "enable": true,
+      "name": "Terms & conditions",
+      "url": "/terms-conditions/"
+    }
+  ],
+  "footerTertiary": [
+    {
+      "enable": true,
+      "name": "Our Services",
+      "url": "/"
+    },
+    {
+      "enable": true,
+      "name": "About Us",
+      "url": "/"
+    },
+    {
+      "enable": true,
+      "name": "Events",
+      "url": "/"
+    },
+    {
+      "enable": true,
+      "name": "Contact",
+      "url": "/"
+    }
+  ]
+}
