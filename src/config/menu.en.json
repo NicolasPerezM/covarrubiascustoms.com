@@ -49,12 +49,12 @@
     {
       "enable": true,
       "name": "About Us",
-      "url": "/elements/"
+      "url": "/about/"
     },
     {
       "enable": true,
       "name": "Events",
-      "url": "/elements/",
+      "url": "/events/",
       "badge": {
         "enable": true,
         "label": "UPCOMING",
@@ -78,7 +78,7 @@
     {
       "enable": true,
       "name": "Events",
-      "url": "/services/"
+      "url": "/events/"
     },
     {
       "enable": true,

@@ -21,8 +21,6 @@ const page = await getEntryCTM("about-us", "-index", Astro.currentLocale);
 <Base {...page?.data} footerLayout={"footer-2"} hideOffcanvas={true}>
   <PageHeader content={page?.data} />
   <Stats />
-  <AboutTwo />
-  <Awards />
   <TeamSection />
   <ContactSection />
   <Clients />

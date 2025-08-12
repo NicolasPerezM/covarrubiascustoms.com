@@ -68,7 +68,7 @@ if (!enable) {
         {
           title && (
             <h2
-              class="text-display-6 xs:text-display-5 md:text-display-4 xl:text-display-3 mx-auto"
+              class="text-display-6 xs:text-display-5 md:text-display-4 xl:text-display-3 mx-auto text-white"
               set:html={markdownify(title)}
             />
           )
@@ -78,7 +78,7 @@ if (!enable) {
         class:list={["space-y-10", centeredContent ? "max-w-2xl" : "max-w-lg"]}>
         {
           description && (
-            <div class="text-lg" set:html={markdownify(description, true)} />
+            <div class="text-lg text-[#F6F6F6]" set:html={markdownify(description, true)} />
           )
         }
 
@@ -87,10 +87,10 @@ if (!enable) {
             <CustomButton
               hoverEffect="creative-fill"
               class:list={[
-                "uppercase",
+                "uppercase bg-white text-black",
                 {
-                  "effect-color-light": appearance === "accent",
-                  "effect-color-accent": appearance === "light",
+                  "effect-color-accent": appearance === "accent",
+                  "effect-color-light": appearance === "light",
                 },
               ]}
               {...button}
