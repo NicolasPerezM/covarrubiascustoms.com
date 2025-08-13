@@ -100,7 +100,7 @@ const { address, phone, email } = config.settings.contactInfo;
         {
           description && (
             <p
-              class="font-medium text-inherit"
+              class="font-medium text-inherit text-lg md:text-xl"
               set:html={markdownify(description)}
             />
           )
@@ -120,7 +120,7 @@ const { address, phone, email } = config.settings.contactInfo;
       data-aos="reveal-anim-right"
       data-aos-offset="0"
       data-aos-delay="500"
-      class="font-secondary relative z-10 mt-10 flex max-w-xl flex-wrap gap-x-20 gap-y-5 text-sm/loose uppercase md:mt-20 lg:mt-9 lg:ms-auto lg:justify-around xl:max-w-3xl">
+      class="font-secondary relative z-10 flex max-w-xl flex-wrap gap-x-20 gap-y-5 text-sm/loose uppercase md:mt-20 lg:mt-9 lg:ms-auto lg:justify-around xl:max-w-3xl">
       {
         address && (
           <address class="not-italic" set:html={markdownify(address)} />

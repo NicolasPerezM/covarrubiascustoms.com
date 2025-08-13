@@ -63,12 +63,12 @@ if (!enable) {
         list.map((item) => (
           <div
             class:list={[
-              "max-h-full min-w-(--marquee-element-width-responsive) px-4 text-center md:min-w-(--marquee-element-width)",
+              "max-h-full min-w-(--marquee-element-width-responsive) px-4 text-center md:min-w-(--marquee-element-width) mr-4",
             ]}>
             <div class="flex items-center gap-4 md:gap-8">
               {listSeparatorImage && (
                 <OptimizedImage
-                  class="ms-4 w-5 md:ms-8 md:w-10"
+                  class="ms-4 w-8 md:ms-8 md:w-18"
                   src={listSeparatorImage}
                   alt="icon"
                 />

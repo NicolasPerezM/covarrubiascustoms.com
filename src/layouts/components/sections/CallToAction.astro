@@ -32,7 +32,6 @@ let actualContent = overrideObjects(
 // Extracting required values from 'content' object
 let {
   enable = true,
-  title,
   description,
   button,
   options,
@@ -65,22 +64,17 @@ if (!enable) {
           : "lg:grid-cols-2 lg:place-items-center lg:gap-y-20",
       ]}>
       <div class:list={[centeredContent ? "max-w-5xl" : "max-w-3xl"]}>
-        {
-          title && (
-            <h2
-              class="text-display-6 xs:text-display-5 md:text-display-4 xl:text-display-3 mx-auto text-white"
-              set:html={markdownify(title)}
-            />
-          )
-        }
+        <h2
+          class="text-display-6 xs:text-display-5 md:text-display-4 xl:text-display-3 mx-auto text-white"
+        >
+          Ready to Amp Things Up?
+        </h2>
       </div>
       <div
         class:list={["space-y-10", centeredContent ? "max-w-2xl" : "max-w-lg"]}>
-        {
-          description && (
-            <div class="text-lg text-[#F6F6F6]" set:html={markdownify(description, true)} />
-          )
-        }
+        <div class="text-lg text-[#F6F6F6]">
+          Gear, lighting, and sound that put your celebration in the spotlight, lets talk
+        </div>
 
         {
           button?.enable && (

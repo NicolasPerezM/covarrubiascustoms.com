@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "From Backyard Parties to Full-Scale Events"
 enable: true
 
 options:

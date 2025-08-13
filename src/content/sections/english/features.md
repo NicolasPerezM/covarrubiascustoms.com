@@ -1,7 +1,7 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
 description: "We are honored to work alongside these distinguished partners."
-listSeparatorImage: "/images/icons/svg/star.svg"
+listSeparatorImage: "/images/logoAlternate.webp"
 
 marquee:
   # elementWidth: "11.25rem"
@@ -12,9 +12,9 @@ marquee:
   duration: "80s"
 
 list:
-  - We Give Unparalleled Flexibility
-  - We Give Unparalleled Flexibility
-  - We Give Unparalleled Flexibility
-  - We Give Unparalleled Flexibility
-  - We Give Unparalleled Flexibility
+  - Turning Ideas into Epic Events
+  - The Setup That Sets the Vibe 
+  - From Techno Nights to Punk shows
+  - Turning Ideas into Epic Events
+  - The Setup That Sets the Vibe
 ---

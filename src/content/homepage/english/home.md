@@ -41,7 +41,7 @@ servicesSection:
 # Uncomment key values that you wan to override
 portfolioSection:
   enable: true
-  title: "Discover Our <br /> Selected Projects"
+  title: "From Backyard Parties <br/> to Full-Scale Events"
 
   options:
     layout: "slider" # masonry | grid | full-width | slider

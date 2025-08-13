@@ -1,7 +1,8 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-title: "We Help Brands Grow Through Strategy"
-description: "We are a creative agency working with brands building insightful <br /> strategy, creating unique designs and crafting value"
+title:  " No Job Too Big, <br/>
+          No Stage Too Small"
+description: "Don’t be afraid to ask — we love helping with your backyard party! Bands, special celebrations, punk shows, and all kinds of events. Ask about our multi-day deals — you won’t want to miss them!"
 
 image: "/images/skillsImg.jpeg"
 imagePosition: "left" # Choose between "left" or "right"
