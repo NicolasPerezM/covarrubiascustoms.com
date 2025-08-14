@@ -7,7 +7,7 @@ title:
   - Built for
   - Big Nights
 
-image: "/images/banner/bannerImg.png"
+image: "/images/banner/stageCovarrubias2.png"
 description: "From staging and sound to lights and logistics — we create the perfect setup for unforgettable parties, concerts, and live events."
 
 button:
