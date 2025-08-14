@@ -9,6 +9,7 @@ import overrideObjects from "@/lib/utils/overrideObjects.ts";
 import AnimatedNumber from "../widgets/AnimatedNumber.astro";
 import type { skillsSectionSchema } from "@/sections.schema";
 import ListCheck from "../../shortcodes/ListCheck.astro";
+import ImageItem from "../../shortcodes/ImageItem.astro";
 
 // Type for this section data
 type Skills = Section & NonNullable<z.infer<typeof skillsSectionSchema>>;
@@ -101,7 +102,10 @@ if (!enable) {
     }
   </div> */
   }
-  <ListCheck content={["Primer ítem", "Segundo ítem", "Tercer ítem"]} />
+  <ImageItem
+    imageSrc="/images/gallery/1.jpg"
+    imageAlt="example alt text"
+  />
 
   <script>
     window.addEventListener("load", async function () {

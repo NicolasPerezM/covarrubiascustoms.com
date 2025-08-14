@@ -1,10 +1,10 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-backgroundImage: "/images/video-background.jpg"
+backgroundImage: "/images/video-background.jpeg"
 
 button:
   # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-  enable: true
+  enable: false
   label: "Play video"
   url: "/"
   tag: "button"

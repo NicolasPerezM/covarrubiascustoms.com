@@ -1,5 +1,5 @@
 ---
-title: "Portfolio Masonry"
+title: "Events"
 metaDescription: ""
-image: "/images/page-header/portfolio-page.png"
+image: "/images/page-header/eventsImg.png"
 ---
