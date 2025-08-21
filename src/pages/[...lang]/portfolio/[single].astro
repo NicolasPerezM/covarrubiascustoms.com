@@ -35,6 +35,12 @@ export async function getStaticPaths() {
         return [];
       }
 
+      // Filtrar proyectos con customSlug externo
+      portfolios = portfolios.filter((portfolio) => {
+        const slug = portfolio.data?.customSlug;
+        return !(slug && (slug.startsWith('http://') || slug.startsWith('https://')));
+      });
+
       return portfolios.map((portfolio) => ({
         params: {
           lang:
