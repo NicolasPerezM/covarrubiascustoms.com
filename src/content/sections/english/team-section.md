@@ -1,6 +1,6 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-title: "Our Team Behind The Studio"
+title: "The Team That Makes It Happen"
 
 # Set the maximum number of team members to display in this component instance
 limit: 3 # false / number

@@ -1,33 +1,35 @@
 ---
-title: "Olivia Chen"
-customSlug: "olivia-chen"
-image: "/images/team/4.jpg"
-profession: "UI/UX Designer"
-metaDescription: "Meet Olivia Chen, a detail-oriented UI/UX designer focused on intuitive and elegant user experiences."
+title: ""
+customSlug: ""
+image: "/images/team/team.png"
+profession: ""
+metaDescription: "This is a example description"
 draft: false
 
-email: "example@example.com"
-phone: "+1 840 841 25 69"
+email: "covarrubiascustoms@gmail.com"
+phone: "+1 415 555 2387"
 
 social:
   - enable: true
     label: "facebook"
     icon: "FaFacebook"
-    url: "https://www.facebook.com/folex"
+    url: "https://www.facebook.com/covarrubiascustoms"
   - enable: true
     label: "twitter"
     icon: "FaXTwitter"
-    url: "https://twitter.com/folex"
+    url: "https://twitter.com/covarrubiascustoms"
   - enable: true
     label: "instagram"
     icon: "FaInstagram"
-    url: "https://www.instagram.com/folex"
+    url: "https://www.instagram.com/covarrubiascustoms"
   - enable: true
     label: "linkedin"
     icon: "FaLinkedin"
-    url: "https://www.linkedin.com/folex"
+    url: "https://www.linkedin.com/company/covarrubiascustoms"
 ---
 
-Olivia specializes in crafting seamless user interfaces and impactful visual designs. With 6+ years of experience in SaaS and eCommerce, she’s helped brands turn complex workflows into delightful experiences.
+Covarrubias Customs is proud to announce that we have successfully transformed over 50 events across Los Angeles and beyond. We specialize in bringing your vision to life through professional stage equipment rentals and comprehensive event logistics.
 
-She’s led redesigns for mobile-first platforms and mentors junior designers in building design systems.
+For over 5 years, Covarrubias Customs has been one of the region's most trusted event production companies, progressively expanding our services from intimate gatherings to large-scale productions. Our commitment to excellence and attention to detail has made us the go-to partner for event organizers who demand nothing but the best.
+
+From sound systems and lighting setups to complete staging structures and transportation logistics, we handle every aspect of your event's technical needs. Our experienced team ensures seamless execution, allowing you to focus on what matters most - creating unforgettable memories for your guests.
