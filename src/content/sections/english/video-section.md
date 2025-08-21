@@ -4,7 +4,7 @@ backgroundImage: "/images/video-background.jpeg"
 
 button:
   # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-  enable: false
+  enable: true
   label: "Play video"
   url: "/"
   tag: "button"
@@ -12,7 +12,7 @@ button:
   # variant: "" # Optional: fill | outline | text | circle
 
 video:
-  src: "bTqVqk7FSmY" # Locally hosted video path (ex: /videos/test-video.mp4), or a YouTube/Vimeo video ID (ex: youtube id - LXb3EKWsInQ, vimeo id - 1003013057)
+  src: "" # Locally hosted video path (ex: /videos/test-video.mp4), or a YouTube/Vimeo video ID (ex: youtube id - LXb3EKWsInQ, vimeo id - 1003013057)
   type: "" # If video is stored locally in `public/videos`, set to video file type (e.g., "video/mp4")
   provider: "youtube" # Options: "youtube", "vimeo", or "html5"
   poster: "/images/video-thumbnail.jpg" # Path to thumbnail image for the video
