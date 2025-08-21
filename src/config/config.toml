@@ -1,16 +1,15 @@
 # Site Configuration
 [site]
   title             = "Covarrubias Customs" # Shared title for SEO and OpenGraph
-  description       = "Covarrubias Customs is a U.S.-based event solutions company specializing in stage equipment rentals and event logistics. They provide everything needed to bring live events to life, including staging structures, sound systems, lighting setups, and transportation. Whether it’s a small gathering or a large-scale production, Covarrubias Customs ensures a seamless experience by managing the setup, delivery, and technical logistics for all stage gear. With a commitment to reliability and versatility, they serve as a one-stop partner for event organizers who want professional-grade equipment and smooth execution.
-" # Shared description for SEO and OpenGraph
-  tagline           = "Creative Agency & Personal Portfolio Business Theme"
-  taglineSeparator = "" # default is " - "
+  description       = "Covarrubias Customs is a U.S.-based event solutions company specializing in stage equipment rentals and event logistics. We provide everything needed to bring live events to life, including staging structures, sound systems, lighting setups, and transportation. Whether it's a small gathering or a large-scale production, Covarrubias Customs ensures a seamless experience by managing the setup, delivery, and technical logistics for all stage gear. With a commitment to reliability and versatility, we serve as a one-stop partner for event organizers who want professional-grade equipment and smooth execution." # Shared description for SEO and OpenGraph
+  tagline           = "Professional Event Solutions & Stage Equipment Rentals"
+  taglineSeparator = " | " # default is " - "
   baseUrl          = "https://covarrubiascustoms.netlify.app" # Base URL for the site and used in OpenGraph meta tags.
   logo              = "/images/logo.webp" # Path to the site's logo
   logoAlternate    = "/images/logoAlternate.webp" # Path to the site's logo
   logoText         = "" # Text displayed next to the logo
-  logoWidth        = "160px" # Width of the logo
-  logoHeight       = "110px" # Height of the logo
+  logoWidth        = "100px" # Width of the logo
+  logoHeight       = "70px" # Height of the logo
 
   # Add a trailing slash at the end of URLs (e.g., https://example.com/, https://example.com/contact/)
   # Note: Manually restart your server when you change this value
@@ -28,16 +27,26 @@
 [seo]
   author   = "Covarrubias Customs"
   keywords = [
-    "digital agency",
-    "folex astro template",
-    "astro template",
-    "astro theme",
-    "folex theme",
-    "folex astro theme",
-    "astro portfolio theme",
-    "astro portfolio template",
-    "astro agency template",
-    "astro agency theme"
+    "event equipment rental",
+    "stage equipment rental",
+    "event production services",
+    "sound system rental",
+    "lighting equipment rental",
+    "staging structures",
+    "event logistics",
+    "live event production",
+    "professional audio rental",
+    "event planning services",
+    "concert equipment rental",
+    "festival equipment",
+    "corporate event production",
+    "wedding event equipment",
+    "party equipment rental",
+    "event management",
+    "stage setup services",
+    "audio visual rental",
+    "event transportation",
+    "Los Angeles event rental"
   ]
   robots   = "index, follow" # Instructs search engines on how to crawl and index the pages.
 
@@ -70,25 +79,25 @@
 
   # docs - https://formspree.io/ | https://formsubmit.co/ | https://docs.netlify.com/forms/setup/
   # Form action URL for the contact form (For more settings related to form see "src/content/sections/contact-section.md")
-  contactFormAction = "https://formsubmit.co/temp.gats@gmail.com" # https://formspree.io/f/kweoweo | https://formsubmit.co/your@email.com | "/"
+  contactFormAction = "https://formsubmit.co/covarrubiascustoms@gmail.com" # Updated with the actual email
   # formspree | formsubmit.co | netlify (default is formsubmit.co)
   contactFormProvider = "formsubmit.co"
 
-  footerDescription = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the footer description in different languages or directly add value here if you are not using internationalization feature
+  footerDescription = "Your trusted partner for professional event solutions and stage equipment rentals. From intimate gatherings to large-scale productions, we deliver exceptional service and top-quality equipment." # Professional description for footer
 
   # For changing footer description and footer copyright in different languages see src/i18n/en.json and src/i18n/fr.json
   # We kindly appreciate it if you retain the theme copyright. Thank you for supporting Getastrothemes!
   [settings.copyright]
     enable = true
-    text   = "Copyright © 2025 Covarrubias Customs" # Check src/i18n/en.json and src/i18n/fr.json for changing the copyright text in different languages or directly add value here if you are not using internationalization feature
+    text   = "Copyright © 2025 Covarrubias Customs. All rights reserved." # Updated copyright text
 
   # Mailchimp Subscription Form located in footer
   [settings.subscription]
     enable      = true # Enables or disable the subscription form
-    title       = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the title in different languages or directly add value here if you are not using internationalization feature
-    note       = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the note in different languages or directly add value here if you are not using internationalization feature
+    title       = "Stay Updated with Our Latest Services" # Professional subscription title
+    note       = "Get notified about new equipment, special offers, and industry insights." # Clear subscription note
     formAction = "https://gmail.us11.list-manage.com/subscribe/post?u=d870b06d86c16269e4b1f9b39&amp;id=12cf0c6ac2&amp;f_id=007e61e1f0"
-    mailchimpTagValue = ""
+    mailchimpTagValue = "event-services"
 
 
   # Multilingual settings (check src/config/language.json for changing the languages)
@@ -103,27 +112,27 @@
 
   # Global Contact Information
   [settings.contactInfo]
-    address = "Los Angeles, <br /> CA 10002, USA"
-    email = "[covarrubiascustoms@gmail.com](mailto:folex.agency@mail.com)"
-    phone = "[+1 000 000 000 000](tel:+18000000000)"
+    address = "Los Angeles, <br /> CA, USA"
+    email = "[covarrubiascustoms@gmail.com](mailto:covarrubiascustoms@gmail.com)"
+    phone = "[+1 (000) 000-0000](tel:+10000000000)" # Update with actual phone number
 
   # Header Offcanvas Configuration
   # Update social links in `src/config/social.json`
   [settings.headerOffcanvas]
     enable = true
     logo = "/images/logoAlternate.webp"
-    description = "Covarrubias Customs provides event planning and stage equipment rentals, delivering everything from staging structures and sound to full logistics for unforgettable events." # Check src/i18n/en.json and src/i18n/fr.json for changing the description in different languages or directly add value here if you are not using internationalization feature. This is also used in footer of personal-portfolio homepage
+    description = "Professional event solutions company specializing in stage equipment rentals, sound systems, lighting, and complete event logistics. Bringing your vision to life with reliable, high-quality equipment and seamless execution." # Updated professional description
 
     # Call To Action Button
     [settings.headerOffcanvas.button]
       enable = true
-      label = "Contact us" # Check src/i18n/en.json and src/i18n/fr.json for changing the button label in different languages or directly add value here if you are not using internationalization feature
+      label = "Get a Quote" # More action-oriented button text
       url = "/contact/"
 
   # Navigation Button In Header
   [settings.navigationButton]
     enable = true
-    label  = "Contact us" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
+    label  = "Get a Quote" # Consistent with header offcanvas
     url    = "/contact/"
 
   [settings.markup.tableOfContents]
@@ -140,13 +149,19 @@
 [opengraph]
   image        = "/images/og-image.jpg" # Image used in OpenGraph previews
   ogLocale    = "en_US" # Locale setting for OpenGraph
-  ogType      = "website" # Type of content for OpenGraph protocol
-  twitter      = "" # Twitter handle for Twitter Card meta tags
+  ogType      = "business.business" # More specific type for business
+  twitter      = "@CovarrubiasCustoms" # Add Twitter handle if you have one
   twitterCard = "summary_large_image" # Type of Twitter Card to use in social sharing
 
 # [head] (Add custom scripts, stylesheets, and meta tags to be rendered in the <head> section of the page)
 # -----------------------------------------------------------------------------------------------------------------------------------
 [head]
   content = """
+  <meta name="geo.region" content="US-CA" />
+  <meta name="geo.placename" content="Los Angeles" />
+  <meta name="ICBM" content="34.0522,-118.2437" />
+  <meta name="business:contact_data:locality" content="Los Angeles" />
+  <meta name="business:contact_data:region" content="CA" />
+  <meta name="business:contact_data:country_name" content="USA" />
   <noscript defer src="/umami.is.js" data-website-id=""></noscript>
   """
